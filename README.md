@@ -1,5 +1,7 @@
 # Delta hedging error, a Monte Carlo on gamma
 
+> **Moved.** This model now lives in [quant-models/delta-hedging-error](https://github.com/davidalmeida90/quant-models/tree/main/delta-hedging-error), with its history, next to the other option models. This copy is archived and stays as it was.
+
 Sell an at the money call, hedge it once a day with Black-Scholes delta, and measure what one day of
 hedging earns or loses across 150,000 simulated price paths. Prices drift at a 2% risk-free
 rate with realised volatility equal to implied, and the hedge's cash pays interest, so the hedge is right
